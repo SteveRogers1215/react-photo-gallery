@@ -1,0 +1,22 @@
+.carousel-item {
+    height: 50vh;
+}
+@media only screen and (max-width: 1023px){
+    .carousel-item {
+        height:unset;
+    }
+}
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 30px; /* Adjust the distance from the bottom */
+    right: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid white;
+    opacity: 0.7;
+  }
+  
